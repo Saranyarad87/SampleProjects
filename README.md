@@ -17,3 +17,4 @@ This program will sort an alphanumeric string in the order of numbers,lower case
  For this implementation I use python 3 in-built sort and sorted implementation. There seems to some limiation with this function as a special character like '@' would cause the subsequent character/numbers to be treated as special characters as well. As such in those cases the sorting seems to be slightly off.
 
 #### Example input : Az114d7$&
+#### sample output: 7114dzA&$
