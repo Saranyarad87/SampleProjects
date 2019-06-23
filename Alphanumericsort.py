@@ -56,7 +56,7 @@ class Alphanumsort():
             
             print ("error while sorting numbers")
   
- # merge sorted list and create final alphanumeric string
+# merge sorted list and create final alphanumeric string
     
     def create_alnumstr(self):
         

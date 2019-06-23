@@ -1,7 +1,7 @@
 
 #Bubble sort in python
-# takes both numbers and alphabets
-#can sort ascending/descending or alphabetically
+#owner: Saranya Radhakrishnan
+#ver:Python3
 
 class Bsort():
     
@@ -54,7 +54,7 @@ class Bsort():
             
             return True
         except:
-            print ("Please re-run the program.")
+            print ("Please re-run the program with valid input.")
             return False
     
     def bubble_sort(self):
@@ -93,7 +93,7 @@ class Bsort():
             
         except:
             
-            return 0
+            return False
           
 
 #Main program
@@ -103,11 +103,15 @@ if __name__ == '__main__':
     try:
         
         s = Bsort()
-        print (s.bubble_sort())
+        
+        if (s.bubble_sort()):
+            print ("Program execution completed")
+        else:
+            print ("Good Bye!")
     
     except:
         
-        print ("Error occured in main program.")
+        print ("Error occurred in main program.")
     
     
     
