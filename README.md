@@ -1,4 +1,4 @@
-# Canaryproj
+# A test for Canary
 
 ## Bubble Sort program
 
