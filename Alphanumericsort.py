@@ -61,7 +61,7 @@ class Alphanumsort():
     def create_alnumstr(self):
         
         str_to_process = self.mysplit(self.strval)
-        n,a,A,s = (self.splitString(str_to_process))
+        n,a,A,s = (self.splitString_sort(str_to_process))
         numlist = list(map(str,n))
         s1 =(''.join(numlist))
         s2 =(''.join(a))
