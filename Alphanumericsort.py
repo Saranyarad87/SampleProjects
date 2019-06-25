@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 #Alphanumeric sort in python
 #owner: Saranya Radhakrishnan
 #ver:Python3
@@ -6,6 +7,14 @@
 # Python code to demonstrate working of unittest 
 import unittest,re
 
+=======
+
+#Alphanumeric sort in python
+#owner: Saranya Radhakrishnan
+#ver:Python3
+  
+import re
+>>>>>>> 5d69dbcf7994f8a44168360250c5270c330998e0
 
 class Alphanumsort():
     
