@@ -1,4 +1,4 @@
-# Programming test for Canary
+# Programming test samples
 
 ## Bubble Sort program
 
